@@ -1,0 +1,25 @@
+* {
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /*background: linear-gradient(#C7D3DC,#5B798E);*/
+    background-color: #181818;
+}
+
+.icon-container {
+    max-width: 360px;
+}
+
+.icon-container img {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+}

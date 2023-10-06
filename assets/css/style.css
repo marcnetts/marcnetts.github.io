@@ -23,3 +23,7 @@ footer {
     text-align: center;
     margin-top: auto;
 }
+
+.h-vw-20{
+    height: 20vw;
+}

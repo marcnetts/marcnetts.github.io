@@ -1,5 +1,5 @@
 * {
-    color: white;
+    color: #f8f9fa;
 }
 
 .main {
@@ -26,4 +26,8 @@ footer {
 
 .h-vw-20{
     height: 20vw;
+}
+
+.img-container > *{
+    display: contents;
 }

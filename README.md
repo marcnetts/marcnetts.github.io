@@ -1,2 +1,2 @@
 # Simple Portfolio
-Criado com CSS/Boostrap.
+Hello World! Portfolio simples com HTML e CSS básico.

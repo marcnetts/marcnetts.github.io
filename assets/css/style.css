@@ -83,6 +83,16 @@ footer {
     font-size: 0.9rem;
 }
 
+a {
+    color: revert;
+}
+
+.img-marcnetts {
+    border: 3px solid var(--current-theme-bg);
+    box-shadow: 10px 10px var(--blue-primary);
+    max-width: calc(100% - 10px);
+}
+
 /* Dark mode */
 body.dark {
     background: var(--dark-bg);

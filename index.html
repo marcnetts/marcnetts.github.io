@@ -8,6 +8,7 @@
     <meta content="https://marcnetts.github.io/" property="og:url" />
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
     <title>Marcos Zanetti | Desenvolvedor Fullstack</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Facebook Meta Tags -->
@@ -26,7 +27,7 @@
 <body class="light">
     <header>
         <div>
-            <h1 class="title">Marcos Zanetti</h1>
+            <h1 class="title fw-bold">Marcos Zanetti</h1>
             <p class="subtitle">Fullstack Dev | Java, Angular & Python | Insights sobre tecnologia e carreira direto na minha newsletter</p>
         </div>
         <div class="contact-links">
@@ -37,52 +38,65 @@
         </div>
     </header>
 
-    <section class="about">
-        <h2>Olá!</h2>
+    <section class="about px-3">
+        <h2 class="fw-bold my-3">Olá!</h2>
         <p>Desenvolvo soluções versáteis focando em simplicidade e design criativo.</p>
         <p>Tenho conhecimento em algoritmos e lógica de programação (Angular, React, PHP, Java entre outros), há anos desenvolvendo desde sistemas web e desktop a automações diversas.</p>
     </section>
 
-    <section class="skills">
-        <h2>O que eu faço</h2>
-        <ul>
-            <li>Python</li>
-            <li>React</li>
-            <li>Angular</li>
-            <li>Java Spring</li>
-            <li>Automação</li>
-            <li>Web Design</li>
-            <li>Documentação</li>
-            <li>Análise de Dados</li>
-        </ul>
+    <section class="skills px-3">
+        <div class="row">
+            <div class="col-6">
+                <h2 class="fw-bold my-3">Áreas de Domínio</h2>
+                <ul>
+                    <li>Programação Frontend: React, Angular, PHP</li>
+                    <li>Programação Backend: Java Spring</li>
+                    <li>Automação com Python</li>
+                    <li>Web Design</li>
+                    <li>Criação e Gestão de Documentação</li>
+                    <li>Análise de Dados</li>
+                </ul>
+            </div>
+            <div class="col-6 align-content-center">
+                <div class="img-marcnetts">
+                    <img src="assets/img/python_code.png" alt="Código Python" class="img-fluid">
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="projects">
-        <h2>Sneak Peek</h2>
-        <div class="project-grid">
-            <article class="project">
-                <a href="https://marcnetts.github.io/reactdex/" target="_blank"><h3>Reactdex</h3></a>
-                <p>Visualizador com Vite + React + Typescript + PokéAPI.</p>
+    <section class="projects px-3">
+        <h2 class="fw-bold my-3">Sneak Peek</h2>
+        <div class="project-grid row g-4">
+            <div class=" col-md-4 col-sm-6">
+                <article class="project h-100">
+                    <a href="https://marcnetts.github.io/reactdex/" target="_blank"><h3 class="h5 my-2">Reactdex</h3></a>
+                    <p>Visualizador com Vite + React + Typescript + PokéAPI.</p>
+                </div>
             </article>
-            <article class="project">
-                <a href="https://github.com/marcnetts/BulbaPal/" target="_blank"><h3>BulbaPal</h3></a>
-                <p>Formatador de templates para wikis.</p>
+            <div class="col-md-4 col-sm-6">
+                <article class="project h-100">
+                    <a href="https://github.com/marcnetts/BulbaPal/" target="_blank"><h3 class="h5 my-2">BulbaPal</h3></a>
+                    <p>Formatador de templates para wikis.</p>
+                </div>
             </article>
-            <article class="project">
-                <a href="https://marcnetts.itch.io/guerra-de-palavras" target="_blank"><h3>Guerra de Palavras</h3></a>
-                <p>Jogo de adivinhação de palavras em Unity.</p>
+            <div class="col-md-4 col-sm-6">
+                <article class="project h-100">
+                    <a href="https://marcnetts.itch.io/guerra-de-palavras" target="_blank"><h3 class="h5 my-2">Guerra de Palavras</h3></a>
+                    <p>Jogo de adivinhação de palavras em Unity.</p>
+                </div>
             </article>
         </div>
     </section>
 
-    <section class="articles">
-        <h2>Artigos</h2>
+    <section class="articles px-3">
+        <h2 class="fw-bold my-3">Artigos</h2>
         <p><a href="https://www.linkedin.com/newsletters/7291995686294687745/" target="_blank">Devs & Dados:</a> Leia sobre insights tecnologia e programação!</p>
         <p>Também crio textos mais casuais no <a href="https://substack.com/@marcnetts" target="_blank">Substack</a>.</p>
     </section>
 
     <footer>
-        <p>&copy; 2025 Marcos Zanetti</p>
+        <p class="py-2">&copy; 2025 Marcos Zanetti</p>
     </footer>
 
     <script>
